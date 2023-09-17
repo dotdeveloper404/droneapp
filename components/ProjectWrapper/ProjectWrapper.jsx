@@ -57,7 +57,7 @@ const ProjectWrapper = () => {
                     <div className="project-box">
                         <div className="project-img">
                             <Image width="300"
-                                height="700" src="/assets/images/project-3.png" al3t="Project 3" />
+                                height="700" src="/assets/images/project-3.png" alt="Project 3" />
                             <div className="project-overlay">
                                 <Fancybox
                                 >

@@ -1,6 +1,5 @@
 (function($){
 
-    Fancybox.bind('[data-fancybox]', {});
 
     $(document).delegate('.nav-menu a[href^="#"]', "click", function(e) {
         let href = $(this).attr('href'); 
@@ -48,15 +47,7 @@
 	    }
 	});
 
-    $('#reviews-slider').slick({
-        dots: false,
-        arrows: false,
-        autoplay: true,
-        speed: 300,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
+  
     
     let counters = [];
     $(window).on("scroll", function(){
@@ -107,12 +98,6 @@
         return false;
     });
 
-    new WOW({
-        boxClass: 'wow',
-        animateClass: 'animate__animated',
-        offset: 0,
-        mobile: true, 
-        live: true
-    }).init();
+     
     
 })(jQuery)

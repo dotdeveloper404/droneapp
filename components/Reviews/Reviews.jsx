@@ -28,7 +28,7 @@ const Reviews = () => {
                             <div className="review-content">
                                 <h5>Our Expertise</h5>
                                 <h3>we are professional in the field aerial &amp; drone</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                             <div className="review-author">
                                 <Image width={'80'} height={'80'} src="/assets/images/thumbnail.png" alt="Jason Haris" />

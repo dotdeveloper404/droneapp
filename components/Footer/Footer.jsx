@@ -56,8 +56,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div>
+            <button id="scrollTop"><i className="las la-angle-double-up"></i></button>
+            </div>
         </footer>
-       <button id="scrollTop"><i className="las la-angle-double-up"></i></button>
+       
        </> 
     )
 }

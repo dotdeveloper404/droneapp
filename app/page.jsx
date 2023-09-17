@@ -79,7 +79,7 @@ const Home = () => {
               <div className="col-lg-6 col-md-8">
                 <div className="headings1">
                   <h2>Our Gears & Equipements</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown</p>
                 </div>
               </div>
             </div>
@@ -172,7 +172,7 @@ const Home = () => {
                   <div className="oex-right-area">
                     <div className="oex-rarea-img">
                       <Image width="750"
-                        height="900" src="/assets/images/img1.png" alt='Drone' />
+                        height="900" src="/assets/images/img1.png" alt="Drone" />
                     </div>
                     <div className="oex-rarea-content">
                       <h3>ready to embrace the future</h3>
