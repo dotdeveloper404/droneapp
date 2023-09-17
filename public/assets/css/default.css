@@ -1,0 +1,135 @@
+/* 
+font-family: 'Fjalla One', sans-serif; 
+font-family: 'Montserrat', sans-serif;
+*/
+
+:root {
+    --drone-text: #0C0E18;
+    --drone-dark: #11131C;
+    --drone-gray: #64748b;
+    --drone-light: #F9F9F9;
+    --drone-primary: #02C9D2;
+    --drone-blue: #0085FF;
+    --drone-purple: #5434bc;
+    --drone-pink: #e865df;
+    --drone-yellow: #eff298;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    color: var(--drone-text);
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+ul, ol, li {
+    all: unset;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-moz-selection {
+    background-color: var(--drone-primary);
+    color: #ffffff;
+}
+
+::selection {
+    background-color: var(--drone-primary);
+    color: #ffffff;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+*::-webkit-scrollbar {
+    background-color: #ffffff;
+    width: 15px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border: 4px solid #ffffff;
+    background-color: rgb(100 116 139 / 80%);
+    border-radius: 50px;
+
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(100 116 139);
+}
+
+img, a, button, span {
+    display: inline-block;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, a:is(:hover, :focus) {
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: var(--drone-primary);
+}
+
+.bg-dark {
+    background-color: var(--drone-dark);
+}
+
+.bg-light {
+    background-color: var(--drone-light);
+}
+
+.main-section {
+    padding: 80px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
