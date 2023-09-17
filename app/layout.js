@@ -1,5 +1,4 @@
  
-// import './globals.css'
 import '../public/assets/css/style.css'
  
 import Header from '@/components/Header/Header'
