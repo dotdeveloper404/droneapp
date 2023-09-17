@@ -1,4 +1,4 @@
-'use client'
+
 import Fancybox from '@/components/FancyBox/FancyBox'
 import Image from 'next/image'
 import React from 'react'

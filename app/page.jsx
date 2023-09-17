@@ -1,3 +1,4 @@
+import Fancybox from '@/components/FancyBox/FancyBox'
 import ProjectWrapper from '@/components/ProjectWrapper/ProjectWrapper'
 import Reviews from '@/components/Reviews/Reviews'
 import Image from 'next/image'
@@ -65,7 +66,7 @@ const Home = () => {
               </div>
             </div>
 
-          <ProjectWrapper/>
+            <ProjectWrapper />
 
             <div className="section-cta text-center">
               <a href="#" className="btn-s1">Get Started</a>
@@ -193,12 +194,20 @@ const Home = () => {
                     <Image width="490"
                       height="700" src="/assets/images/poster.png" alt="Poster" />
                     <div className="video-box-overlay">
-                      <a href="/assets/images/videos/video5.mp4" data-fancybox className="project-play"><i className="bi bi-play-fill"></i></a>
+                      <Fancybox
+                      >
+                        <a data-fancybox="projects" href="/assets/videos/1.mp4" className="project-play">
+
+                          <i className="bi bi-play-fill"></i>
+                        </a>
+
+                      </Fancybox>
                     </div>
+
                   </div>
                 </div>
                 <div className="col-lg-7">
-                <Reviews/>
+                  <Reviews />
                 </div>
               </div>
             </div>
