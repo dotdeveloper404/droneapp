@@ -8,8 +8,8 @@ const Header = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-lg-3">
-                            <a href="#" className="logo">
-                                <Image width={'80'} height={'47'} src={'/assets/images/logo.png'} alt="Drone" />
+                            <a href="#" >
+                                <Image  height={50} width={220} src={'/assets/images/logo.png'} alt="Drone" />
                             </a>
                         </div>
                         <div className="col-xl-6 col-lg-7 d-none d-lg-block">
